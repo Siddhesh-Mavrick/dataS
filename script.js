@@ -4,7 +4,7 @@ function validatePassword(event) {
     const passwordInput = document.getElementById("password").value;
 
     // Check if password matches
-    if (passwordInput === "9876") {
+    if (passwordInput === "2024") {
         // Redirect to main page in the Main folder
         window.location.href = "./Main/main.html";
     } else {
